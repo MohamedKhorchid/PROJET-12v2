@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+body {
+  background-color: rgb(37, 56, 162);
+  margin: 0;
+  padding: 50px 20px 0px 20px;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  padding: 25px 0px;
+}
+.header__logo {
+  margin-bottom: 20px;
+}
+.header__logo__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.header__logo__style {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 40px;
+}
+.header__nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header__content__title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-align: center;
+}
+.header__content__text {
+  color: white;
+  font-size: 16px;
+  font-family: "Hind Madurai";
+  text-align: center;
+  margin-top: 20px;
+  width: calc(100% - 20px);
+}
+
+.list__item {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-right: 10px;
+  background-color: rgb(43, 160, 255);
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.text__mark {
+  background-color: rgb(43, 160, 255);
+  font-weight: bold;
+  color: white;
+}
+
+.technologies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.technologies__title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+}
+.technologies__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.5s;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.services__title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+}
+.services__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services__list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+.services__list__item:hover {
+  transform: scale(1.15);
+}
+.services__image {
+  border-radius: 100%;
+  background-color: white;
+}
+.services__text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  font-family: "Hind Madurai";
+}
+
+.realisations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.realisations__title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-bottom: 40px;
+}
+.realisations__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.realisations__list__icon {
+  width: calc(100% - 150px);
+  height: 200px;
+  background-color: white;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 30px;
+}
+.realisations__list__icon:hover {
+  transform: scale(1.15);
+}
+.realisations__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.realisations__text {
+  position: absolute;
+  z-index: 3;
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  background-color: rgb(37, 56, 162);
+  font-style: italic;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.contact__title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-bottom: 25px;
+}
+.contact__div {
+  display: flex;
+  justify-content: center;
+}
+.contact__div__text {
+  color: white;
+  font-size: 18px;
+  font-family: "Hind Madurai";
+  text-align: center;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+.footer__content__text {
+  color: white;
+  font-size: 20px;
+  font-family: "Hind Madurai";
+  width: 100%;
+  text-align: center;
+}
+.footer::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+}
+.modal__content {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: white;
+  z-index: 999;
+  visibility: visible;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal__close__btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.modal__title {
+  color: black;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(37, 56, 162);
+  width: 400px;
+}
+.modal__info {
+  text-align: center;
+  width: 300px;
+  background-color: rgb(37, 56, 162);
+  border-radius: 10px;
+  font-family: "Hind Madurai";
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 30px 30px;
+}
+.modal__image {
+  width: 310px;
+  height: 210px;
+  background-color: rgb(37, 56, 162);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__image__style {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.modal__skills {
+  margin-top: -5px;
+  font-style: italic;
+  font-family: "Hind Madurai";
+  color: rgb(37, 56, 162);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.modal__github {
+  margin-top: 20px;
+}
+.modal__github__link {
+  font-family: "Hind Madurai";
+  color: rgb(37, 56, 162);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .list__item {
+    font-size: 16px;
+  }
+  .realisations__list__icon {
+    width: calc(100% - 500px);
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__logo__menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+  }
+  .header__content {
+    position: relative;
+  }
+  .header__content__title {
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+  }
+  .header__content__text {
+    font-size: 20px;
+    margin-top: 120px;
+    position: absolute;
+    left: 0;
+    text-align: left;
+    width: calc(100% - 200px);
+  }
+  .list__item {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .technologies {
+    margin-top: 180px;
+    position: relative;
+  }
+  .technologies__title {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+  }
+  .technologies__list {
+    margin-top: 120px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .services {
+    margin-top: 180px;
+    position: relative;
+  }
+  .services__title {
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+  }
+  .services__list {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: calc(100% - 200px);
+  }
+  .realisations {
+    margin-top: 150px;
+    position: relative;
+  }
+  .realisations__title {
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+  }
+  .realisations__list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .realisations__list__icon {
+    width: 280px;
+  }
+  .contact {
+    margin-top: 150px;
+  }
+  .contact__title {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .contact__div__text {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
