@@ -49,7 +49,7 @@ function createRealisationsModal(title, image, skills, description, github) {
     const modal = document.createElement('div')
     modal.classList.add('modal')
     modal.innerHTML = `<div class="modal__content">
-    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xl fa-xmark"></i></button>
     <h2 class="modal__title">${title}</h2>
     <div class="modal__skills">${skills}</div>
     <div class="modal__image">
@@ -57,7 +57,7 @@ function createRealisationsModal(title, image, skills, description, github) {
     </div>
     <div class="modal__info">${description}</div>
     <div class="modal__github">
-        <a href="${github}" class="modal__github__link">Lien vers le code du projet</a>
+        <a href="${github}" class="modal__github__link" target="_blank">Lien vers le code du projet</a>
     </div>
     </div>`
 
@@ -123,7 +123,7 @@ function createTechnologiesModal(title, description) {
     const modal = document.createElement('div')
     modal.classList.add('modal')
     modal.innerHTML = `<div class="modal__content">
-    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xl fa-xmark"></i></button>
     <h2 class="modal__title">${title}</h2>
     <div class="modal__info">${description}</div>
     </div>`
@@ -173,7 +173,7 @@ function createServiceModal(title, description) {
     const modal = document.createElement('div')
     modal.classList.add('modal')
     modal.innerHTML = `<div class="modal__content">
-    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xmark"></i></button>
+    <button class="modal__close__btn" id="btnModalClose"><i class="fa-solid fa-xl fa-xmark"></i></button>
     <h2 class="modal__title">${title}</h2>
     <div class="modal__info">${description}</div>
     </div>`
