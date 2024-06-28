@@ -156,15 +156,15 @@ technologies.forEach(technologie => {
 const works = {
     work1: {
         title: "Création de sites web sur-mesure",
-        description: "Vous souhaitez créer un site web de A à Z ? Je peux vous aider ! Grâce à mes compétences je suis en mesure de vous construire un site web responsive correspondant à vos attentes en terme de visuel et de fonctionnalité. Maîtrisant le développement agile, je suis peux également vous accompagner sur la planification et la gestion de votre projet. Vous êtes libre de me fournir une maquette ou de me donner vos indications pour que je charge de les créer.",
+        description: "Vous souhaitez créer un site web de A à Z ? Je peux vous aider ! Grâce à mes compétences je suis en mesure de vous construire un site web responsive correspondant à vos attentes en terme de visuel et de fonctionnalité, de la planification à la mise en ligne.",
     },
     work2: {
         title: "Création de sites wordpress clés en main personnalisés",
-        description: "Vous avez besoin d'un site rapidement et facile à prendre en main ? WordPress est une solution idéale pour répondre à votre besoin. Il s'agit d'un CMS (content manager system) qui faicilite la maintenance et la mise à jour du contenu d'un site, ce qui vous permet de garder la main sur votre application même après la phase de production.",
+        description: "Vous avez besoin d'un site rapidement et facile à prendre en main ? WordPress est une solution idéale pour répondre à votre besoin. Il s'agit d'un CMS (content manager system) qui faicilite la maintenance et la mise à jour du contenu d'un site, ce qui vous permet de garder la main sur votre application.",
     },
     work3: {
         title: "Optimisation SEO et débuggage de sites",
-        description: "Vous avez un site mais ce dernier ne vous apporte que peu de visibilité ? Ou bien, il présente de nombreux bugs rendant son utilisation difficile ? Un travail d'optimisation SEO et de débuggage peut être fait pour rendre votre site plus attrayant et performant et ainsi vous permettre d'obtenir plus de trafic tout en offrant une meilleure expérience",
+        description: "Vous avez un site mais ce dernier ne vous apporte que peu de visibilité ? Ou bien, il présente de nombreux bugs rendant son utilisation difficile ? Un travail d'optimisation SEO et de débuggage peut être fait pour rendre votre site plus attrayant et performant et ainsi vous permettre d'obtenir plus de trafic.",
     },
 }
 
