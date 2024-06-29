@@ -23,7 +23,7 @@ const projects = {
     },
     project4: {
         title: "Nina Carducci",
-        image: "",
+        image: "./images/P9.png",
         skills: "SEO, débuggage",
         description: "Nina Carducci est une photographe profesionnelle pour qui j'ai optimisé le site web à l'aide de l'outil LightHouse, afin de lui permettre de trouver plus de clients.",
         github: "https://github.com/MohamedKhorchid/PROJET99",
