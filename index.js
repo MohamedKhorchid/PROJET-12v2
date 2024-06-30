@@ -30,7 +30,7 @@ const projects = {
     },
     project5: {
         title: "Kasa",
-        image: "./images/Capture d'écran 2024-06-27 191353.png",
+        image: "./images/Capture-d-écran-2024-06-27-191353.png",
         skills: "JavaScript, React, Figma",
         description: "Kasa est un site proposant des hébergements à la location. J'ai été chargé de créer le site avec React à partir de maquettes fournies par le client. Le rendu final permet de naviguer entre les différentes pages du site et de voir tous les détails liés à un logement en particulier.",
         github: "https://github.com/MohamedKhorchid/PROJET-8",
